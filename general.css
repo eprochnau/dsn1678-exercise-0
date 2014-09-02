@@ -24,11 +24,16 @@ h2 {
 }
 
 p,
-figcaption,
 dl {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: black;
+}
+
+figcaption {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: rgba(155,155,155,1.00);
 }
 
 ol {
