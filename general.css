@@ -23,7 +23,9 @@ h2 {
 	color: rgba(159,0,90,1.00);
 }
 
-p {
+p,
+figcaption,
+dl {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: black;
@@ -31,9 +33,5 @@ p {
 
 ol {
 	list-style: circle;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-dl {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
