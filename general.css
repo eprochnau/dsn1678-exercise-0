@@ -5,8 +5,8 @@ body:before, body:after {
     content: "";
     position: fixed;
     background: #900;
-    left: 0;
-    right: 0;
+    left: 100px;
+    right: 100px;
     height: 10px;
 }
 body:before {
