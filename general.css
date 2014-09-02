@@ -1,2 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
+
+body {
+	background-color: white;
+}
+
+br {
+	color: rgba(159,0,90,1.00);
+	border-bottom: 1px;
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: rgba(159,0,90,1.00);
+}
+
+p {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 16px;
+	color: black;
+}
