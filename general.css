@@ -19,8 +19,8 @@ body:after {
 body {
 	background-color: white;
 	padding: 0 25%;
-	border-left: 10px solid #900;
-	border-right: 10px solid #900; 
+	border-left: 100px solid #900;
+	border-right: 100px solid #900; 
 }
 
 br {
