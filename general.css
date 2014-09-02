@@ -1,9 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+
 body {
 	background-color: white;
 	padding: 0 25%;
+	border-left: 10px solid #900;
+	border-right: 10px solid #900; 
 }
 
 br {
@@ -36,7 +53,19 @@ figcaption {
 	color: rgba(155,155,155,1.00);
 }
 
+blockquote {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 16px;
+	color: black;
+}
+	
+cite {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 14px;
+	color: rgba(155,155,155,1.00);
+	float: right;
+}
+
 ol {
-	list-style: circle;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
