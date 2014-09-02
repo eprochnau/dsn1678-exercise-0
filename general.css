@@ -30,11 +30,10 @@ p {
 }
 
 ol {
-	list-style: none;
+	list-style: circle;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 dl {
-	list-style: none;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
